@@ -1,0 +1,252 @@
+
+/* resetear margenes y padding de la pagina */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* ---------------------------------------- */
+
+
+
+
+/* dar estilos al div principal */
+.principal{
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    height: auto;
+    width: 95%;
+    margin-bottom: 50px;
+}
+/* ---------------------------------------- */
+
+
+
+
+/* dar estilos al header */
+header{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid gray;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos al div principal del header con el flex */
+.controlar{
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    align-items: baseline;
+    line-height: 80px;
+    flex-wrap: wrap; /* permite que no se salgan los elementos */
+}
+/* ---------------------------------------- */
+
+
+.controlar .titulo{
+   flex-basis: 60%;
+}
+
+
+
+
+/* dar estilos al h1 del header */
+.controlar .titulo h1{
+    flex-grow: 1;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-left: 15px;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* hacer que los li se alineen horizontalmente */
+.controlar .navegacion ul{
+    display: flex;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos a los li del nav */
+.controlar .navegacion ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* da estilos a los enlaces del nav*/
+.controlar .navegacion ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos al div principal del section */
+.controlar2{
+    display: flex;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos a la caja derecha */
+.cajaderecha {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos a las cajitas pequeñas */
+.cajaderecha .secciones{
+    height: 250px;
+    width: 200px;
+    border: 1px solid gray;
+    background-color: rgb(231, 231, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 7px;
+    flex-grow: 1;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilos a la cajita en su interior */
+
+.controlar2 .cajaderecha .secciones footer h4{
+    line-height: 40px;
+}
+
+.controlar2 .cajaderecha .secciones footer p{
+    line-height: 1px;
+}
+
+
+.controlar2 .cajaderecha .secciones .contenido{
+    text-align: center;
+    line-height: 200px;
+    margin-bottom: -100px;
+    font-size: 30px;
+}
+
+.controlar2 .cajaderecha .secciones .seccionpie{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.cajaderecha .secciones footer{
+    background-color: white;
+    margin-top: 1px;
+    height: 60px;
+}
+/* ---------------------------------------- */
+
+
+
+
+
+/* dar estilo a la caja izquierda de tipo aside */
+.cajaizquierda{
+    width: 21%;
+    margin-left: 15px;
+    height: 500px;
+}
+
+
+
+.controlar2 .cajaizquierda .tituloaside{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+
+.controlar2 .cajaizquierda .botones .botoncito{
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+}
+
+
+.controlar2 .cajaizquierda .botones .botoncito:hover{
+    background-color: rgb(179, 177, 177);
+    cursor: pointer;
+}
+
+
+.controlar2 .cajaizquierda .botones  .botoncito a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(88, 88, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+}
+/* ---------------------------------------- */
+
+
+
+/* estilos del footer */
+
+
+.footercito{
+    height: 106px;
+}
+.footercito .controlar3{
+    display: flex;
+    height: 106px;
+    justify-items: baseline;
+    justify-content: space-between;
+}
+
+.footercito .controlar3 .footer1{
+    line-height: 106px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(179, 177, 177);
+    margin-left: 15px;
+}
+
+.footercito .controlar3 .footer2{
+    line-height: 106px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+}
